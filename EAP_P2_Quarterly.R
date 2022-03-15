@@ -163,7 +163,7 @@ sum(table(stocks$Size_sort)/length(unique(stocks$date)))
 
 stocks = stocks[!duplicated(stocks[, 1:5]), ]
 
-######################Excess returns - Annually##################
+######################Excess returns - Quarterly##################
 rf = readRDS('rf.rds')*100
 
 ###All stocks
